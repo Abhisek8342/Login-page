@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        .head{
+           font-size: 35px;
+            color:#ff7200;
+            font-family: Arial;
+           padding-left: 20px;
+           float: left;
+           padding-top: 10px;
+        }
+        ul,li{
+            list-style: none;
+            float: left;
+            color:white;
+            font-family:Arial;
+            margin: 25px;
+            text-decoration: solid;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+        }
+        .navbar{
+            width: 1200px;
+            height: 75px;
+            margin: auto;
+        }
+        .inp{
+         float: left;
+         background: transparent;
+         /* margin-left: 270px; */
+         margin-top: 40px;
+         width: 200px;
+         height: 40px;
+         font-family: 'Times New Roman';
+         border-color: #ff7200;
+         margin-left: 90px;
+         color: white;
+         border-right: none;
+        }
+        .btn{
+            border-left: none;
+            background-color: #ff7200;
+            margin-top: 38px;
+            height: 50px;
+            color: white;
+            font-family: Arial;
+            width: 80px;
+        cursor: pointer;
+        }
+       .btn:focus{
+        outline: none;
+        background-color: #ffa600eb;
+       }
+       .btn:hover{
+        background-color:orange ;
+       }
+       .cont
+       {
+       width: 1200px;
+       height: auto;
+       margin: auto;
+       color: #fff;
+       position: relative;
+       }
+       .cont .par{
+        position: relative;
+        padding-left: 20px;
+        padding-bottom: 25px;
+        font-family: Arial;
+        letter-spacing: 1.2px;
+        line-height: 30px;
+       }
+       .cont .cn{
+        width: 160px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .4s ease;
+       }
+       .cont .cn a{
+        text-decoration: none;
+        color:black;
+        transition: .3s ease;
+       }
+       .cn:hover{
+        background-color:#fff;
+       
+       }
+       .btns{
+        background-color: #ff7200;
+            margin-top: 38px;
+            color: white;
+            font-family: Arial;
+            width: 195px;
+            border: none;
+            width: 220px;
+            height: 30px;
+            text-align: center;
+            font-size: 22px;
+            border-radius: 10px;
+       
+       }
+       .btns:hover{
+        background-color: #fff;
+        color:#ff7200;
+        cursor: pointer;
+       }
+       .form{
+        width: 250px;
+        height: 380px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        top:195px;
+        left: 1080px;
+        border-radius: 10px;
+        padding: 25px;
+       }
+       .form h2{
+        width: 220px;
+        height: 20px;
+        text-align: center;
+        color: #ff7200;
+        font-size: 22px;
+        background-color: #fff;
+        border-radius: 10px;
+        margin: 2px;
+        padding: 10px;
+       }
+       .form input{
+        width: 220px;
+        height: 30px;
+        background: transparent;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: #ff7200;
+        color: #fff;
+       }
+       .form p{
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+       }
+       .form a{
+        color: #ff7200;
+       }
+       .form i{
+        font-size: 25px;
+        color: #fff;
+       margin: 5px;
+       }
+       .form i:hover{
+        color: #ff7200;
+        cursor: pointer;
+       }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="background.jpg">
+<div class="main">
+    <div class="navbar">
+        
+        <h2 class="head">PraRoz</h2>
+       
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICE</li>
+                <li>DESIGN</li>
+                <li>CONTACT</li>
+            </ul>
+           
+                <input type="text" placeholder="Type to search" class="inp"> 
+                <button class="btn">Search</button>
+           
+    </div>
+    <br> <br><br><br>
+    <div class="cont">
+        <h1>Web Design & <br> <span style="color: #ff7200;">Development</span> <br> Course</h1>
+        <p class="par">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nostrum ducimus culpa numquam. Inventore explicabo cumque magnam harum 
+             <br> deserunt possimus et ut dicta quaerat repudiandae. Ad hic ipsa amet quos explicabo!
+        </p>
+        <button class="cn"><a href="#">Join Us</a></button>
+    </div>
+    
+    <div class="form">
+        
+            <h2>Login Here</h2> <br>
+            <input type="email" name="email" placeholder="Enter Email Here"> <br> <br>
+            <input type="password" name="pass" placeholder="Enter Password Here"> <br>
+            <button class="btns">Login</button> 
+            <p>
+                Don't have an account ? <br>
+                 <a href="#">Sign up</a>
+                here <br>
+            </p>
+            <p>Log in with</p>
+       <i class=" fa fa-facebook"></i>
+       <i class=" fa fa-instagram"></i>
+       <i class="fa fa-twitter"></i>
+       <i class="fa fa-google"></i>
+       <i class="fa fa-linkedin"></i>
+    </div>
+</div>
+    
+</body>
+</html>
